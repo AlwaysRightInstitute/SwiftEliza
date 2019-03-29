@@ -8,9 +8,16 @@
 ![tuxOS](https://img.shields.io/badge/os-tuxOS-green.svg?style=flat)
 ![Travis](https://api.travis-ci.org/AlwaysRightInstitute/SwiftEliza.svg?branch=feature/swift-package-manager&style=flat)
 
+*Note*: This is the ARI fork of
+[kennysong/SwiftEliza](https://github.com/kennysong/SwiftEliza).
+Upstream doesn't seem to incorporate PRs.
+
 SwiftEliza is a Swift + iOS implementation of Weizenbaum's [ELIZA chatbot](https://en.wikipedia.org/wiki/ELIZA), which is a simulation of a Rogerian psychotherapist. 
 
-Based on my [Go implementation](https://github.com/kennysong/goeliza) and QuestionBot from Apple's [App Development with Swift](https://itunes.apple.com/book/app-development-with-swift/id1118575552) book.
+Based on kennysong's [Go implementation](https://github.com/kennysong/goeliza) 
+and QuestionBot from Apple's 
+[App Development with Swift](https://itunes.apple.com/book/app-development-with-swift/id1118575552) 
+book.
 
 ![SwiftEliza screenshot](/SwiftEliza/screenshot.png)
 
@@ -30,7 +37,7 @@ You can import Eliza as a regular Swift Package Manager package. To do so,
 use a `Package.swift` like this:
 
 ```swift
-// swift-tools-version:4.0
+// swift-tools-version:5.0
 
 import PackageDescription
 
